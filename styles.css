@@ -118,6 +118,10 @@ button{color:inherit}
 .accuse.wrong .verdict{color:#e0a1a7}
 .verdict p{color:#c6bdae}
 .next-case{display:block;margin-top:11px;width:100%;border:1px solid #80612f!important;background:#211a0f!important;color:#e4c78e!important;padding:11px!important;border-radius:9px!important;text-align:center!important}
+.source-box{margin-top:12px;padding:11px 12px;border:1px solid #5d4930;border-radius:10px;background:#17130d;color:#bcae94}
+.source-box b{color:#dfc48d}
+.source-box em{color:#d5c5a7}
+.source-box a{color:#d7ad62;text-decoration:underline;text-underline-offset:3px}
 .notes{width:100%;min-height:145px;background:#0c1116;border:1px solid #3c3a35;border-radius:12px;color:#ece3d4;padding:12px;resize:vertical}
 .notes:focus{outline:none;border-color:#856536;box-shadow:0 0 0 3px #85653618}
 @media(max-width:720px){
