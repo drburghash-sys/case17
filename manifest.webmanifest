@@ -1,0 +1,19 @@
+{
+  "name": "CASE 17",
+  "short_name": "CASE 17",
+  "description": "لعبة تحقيق عربية - 50 قضية مستقلة",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "dir": "rtl",
+  "lang": "ar",
+  "icons": [
+    {
+      "src": "assets/case17-icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
