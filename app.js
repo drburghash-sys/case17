@@ -143,8 +143,10 @@ function storyData(c) {
     const order = c.id % 2
       ? [1,8,3,10,0,5,9,2,11,6,4,7,12,13,14]
       : [4,1,9,2,7,0,10,5,3,8,6,11,12,13,14];
-    evidence = order.filter(i => evidence[i]).map(i => evidence[i]);
-    const rest = evidence.length;
+    const original = evidence.slice();
+    const used = new Set(order);
+    evidence = order.filter(i => original[i]).map(i => original[i]);
+    original.forEach((item,i) => { if (!used.has(i)) evidence.push(item); });
   }
 
   return {t, story, profiles, evidence};
