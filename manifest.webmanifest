@@ -1,11 +1,11 @@
 {
   "name": "CASE 17",
   "short_name": "CASE 17",
-  "description": "لعبة تحقيق عربية - 50 قضية مستقلة",
+  "description": "لعبة تحقيق عربية - 20 قضية كلاسيكية متسلسلة",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#07111f",
-  "theme_color": "#07111f",
+  "background_color": "#080b0f",
+  "theme_color": "#080b0f",
   "dir": "rtl",
   "lang": "ar",
   "icons": [
